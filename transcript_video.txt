@@ -1,0 +1,581 @@
+In today's video, I'm going to show you
+0:01
+guys this super powerful workflow to
+0:03
+make precise and controlled Cedence 2.5
+0:06
+videos that you can use on websites like
+0:08
+these. We're going to use Blender to map
+0:09
+out these scenes and then we're going to
+0:11
+use Hakesfield to bring it to life.
+0:13
+Hakesfield are also the sponsor of
+0:14
+today's video.
+0:17
+[music]
+0:20
+When you're working with AI videos, one
+0:21
+of the biggest problems is you never
+0:23
+really know what you're going to get.
+0:24
+You can try visualize it in your head
+0:26
+and then explain that to the AI. But
+0:28
+this Blender workflow honestly changes
+0:30
+everything. And I'll show you how we do
+0:31
+it. First things first, if you don't
+0:32
+already have Blender, go to blender.org
+0:34
+and you can download Blender for free,
+0:36
+which is crazy. A tool like this is
+0:38
+free. And you want to make sure you have
+0:40
+the newest version of Blender, which is
+0:41
+this one here, 5.2. Now, once that's
+0:43
+installed, let's head over to Higsfield.
+0:45
+And if we go up here to plugins, we can
+0:47
+go down here to Blender. And what we're
+0:48
+going to do is we're going to download
+0:50
+this plugin. And if we scroll down this
+0:51
+same page, we can get to the Higsfield
+0:53
+Bridge. MCP. So, let's copy this. And
+0:56
+then if we open Claude here and we go up
+0:58
+to customize, we can go down here to
+1:00
+connectors and we can click add. And
+1:01
+then we'll go add custom connector. So,
+1:03
+let's paste in that URL for the
+1:05
+Higsfield Bridge there. And then we'll
+1:07
+just call this Higsfield Bridge. Now,
+1:09
+I've already done this, but when you
+1:10
+click continue, it'll ask you to log
+1:11
+into Higsfield and authorize it. And
+1:13
+then you'll be connected. Then, if we
+1:15
+open up Blender, all we've got to do is
+1:16
+grab our Higsfield Blender plug-in zip
+1:19
+and just drag this anywhere on the
+1:21
+screen just like this. And then click
+1:23
+okay. And then once we've got it
+1:24
+connected, you can see down here we now
+1:26
+have this little panel and we can see
+1:27
+that we've got these tabs now. So we've
+1:29
+got scene builder, we've got 3D model,
+1:31
+we've got character animation and assets
+1:33
+which is fully connected to our Hfield
+1:35
+account. Okay, so it's set up now. Let's
+1:37
+work on our first concept. For the first
+1:39
+website concept, I want to do like a
+1:40
+hero that starts with like an airplane
+1:43
+window like this. The camera pans
+1:45
+through the window and then kind of
+1:46
+sweeps down to see this like cinematic
+1:48
+Londoncape. Now, we could just go
+1:50
+directly into Higsfield and we could
+1:52
+start explaining that concept. Could say
+1:54
+something like, I want a video that
+1:55
+starts with a plane window. Camera pans
+1:57
+through it to reveal London City
+1:58
+Cinematic Skyline. And what we even
+2:00
+could do as well is we could just give
+2:01
+it like a reference of this. And we'll
+2:04
+try this out actually. So, we'll go
+2:05
+scenp
+2:08
+and we'll generate this. So, we got this
+2:10
+here, which at first glance does look
+2:11
+good, but it doesn't quite have the
+2:13
+pacing or the dynamic camera moves that
+2:15
+we want from this scene. Let's use
+2:17
+Blender to fully visualize this scene
+2:18
+before we even jump into Higsfield. If
+2:20
+you don't have any experience with
+2:22
+Blender, you don't really need it for
+2:23
+this workflow anyways. So, we can click
+2:24
+on our cube there and we can press X and
+2:27
+then we can just delete it. Then, if we
+2:28
+go down here to our prompt box, I'm
+2:30
+going to say this. Design me a scene
+2:31
+with a private jet that's overlooking
+2:33
+Big Ben, London City skyline. Keep it
+2:36
+low poly and simple. It's just for
+2:37
+blocking. 10 seconds long. Camera should
+2:40
+pan out of the window and then down at
+2:42
+the cityscape to reveal Big Ben. And
+2:44
+we'll run this now. Now, it took about
+2:46
+10 minutes to do this, but this is what
+2:47
+it's created us fully just from that one
+2:49
+initial prompt. We can play it like
+2:51
+this. And so, we can see our camera
+2:53
+zooming out. And then there's our like
+2:55
+jet. And then there is this London city
+2:58
+skyline. There's kind of like cinematic
+3:00
+clouds. And then there is Big Ben just
+3:03
+at the end there. And so, we can go up
+3:04
+here and view it in the sort of
+3:05
+different shading modes. I think that's
+3:07
+so cool. Like there's our little jet.
+3:09
+Like obviously it's like super low poly
+3:11
+because we're just trying to get the
+3:12
+camera angle here. And then there is the
+3:15
+city skyline. And like you know to do
+3:17
+this manually this would take like a bit
+3:18
+of time. The plug-in did it super quick
+3:20
+for us. And we can click on this camera
+3:22
+view here. And then we can like scrub
+3:24
+through our timeline here. And it's like
+3:26
+key frame that whole like camera
+3:28
+journey. So the next step is over here
+3:30
+where it says output. We want to make
+3:32
+sure that we're at 1080p which we are up
+3:34
+there. And then we can just give it a
+3:36
+folder. Media type. We will make sure
+3:38
+it's set to video. And then on on coding
+3:40
+we're going to go container MP4. Then
+3:43
+all we need to do is go up here to view
+3:44
+and then we could just go render play
+3:46
+blast and our exported video will look
+3:49
+something just like this. Pans out the
+3:51
+window. There's the London city skyline.
+3:53
+We'll head back over into Claude and
+3:54
+then this time we'll click on co-work
+3:56
+and we're going to drag in our video
+3:58
+just there. And we can give it this
+3:59
+prompt here. Examine the video blocking
+4:01
+video and give me a detailed second by
+4:03
+second prompt for Cedence 2.5. It starts
+4:05
+panning out private jet window. Should
+4:07
+be a cinematic London cityscape.
+4:09
+Cinematic lighting with Big Ben being
+4:11
+illuminated. 10 seconds. So Claude's
+4:13
+examined the video, the camera
+4:15
+movements, the composition of the scene.
+4:17
+And what we could just do is we can copy
+4:19
+all of this now. And then we can paste
+4:21
+this into Cedence. And then now we've
+4:23
+got a fully planned shot. So we'll keep
+4:25
+this at 10 seconds, 1080p. And we'll run
+4:28
+this. And this is that video now on the
+4:29
+website. So as we scroll, we pan through
+4:31
+that window. It reveals our London city
+4:34
+skyline. And then there is Big Ben like
+4:37
+illuminating just like that. Before we
+4:38
+get down the page, we mapped it out and
+4:40
+visualized it in Blender. We got Claude
+4:42
+to write the prompt and then we got
+4:44
+scenes 2.5 to bring that prompt to life
+4:46
+better than we could have described it
+4:48
+via just text. Here's concept two.
+4:50
+Concept 2 is actually really similar,
+4:52
+but this time the camera points out the
+4:54
+window revealing a mountain sticking up
+4:56
+through the clouds. Then the camera pans
+4:58
+down towards the clouds through the
+4:59
+clouds fading off into white. And this
+5:01
+is how it's looking in Blender. We can
+5:03
+see it pan out of the window. There's
+5:05
+our low poly mountain. There is our
+5:07
+clouds and then fade off to white just
+5:09
+like that. This is what we've got in our
+5:11
+live website. As we scroll out through
+5:13
+the window, we can see our mountain. And
+5:15
+then as we keep scrolling, we go down to
+5:17
+pan through the clouds where we fade off
+5:18
+to white, revealing our next section.
+5:20
+Concept three is a little bit different.
+5:22
+One thing that's really hard to
+5:23
+visualize with AI video is exploded
+5:26
+product animations. And what I mean by
+5:27
+that is like when a product goes like
+5:29
+this and then you see like all the
+5:30
+internal parts. So over here in Blender,
+5:32
+I've given it this prompt here. This is
+5:34
+simply for camera blocking. Use simple
+5:36
+shapes and color to demonstrate the
+5:37
+scene. I need a VR headset that has
+5:39
+exploded. Expanded lens display front
+5:41
+panel. The scene lasts 5 seconds and
+5:44
+start with a VR headset altogether. 45°
+5:47
+angle as it explodes. So this is what
+5:49
+we've got. Camera rotates around up to a
+5:52
+45° angle as our VR headset sort of
+5:56
+expands like that. We'll give it a claw
+5:58
+and we'll say write me a seedance prompt
+5:59
+based off this video. And here's the
+6:01
+exact breakdown second by second of that
+6:03
+video. So we can just copy this prompt.
+6:05
+And then what we also want to do is we
+6:06
+want to add a reference image of the
+6:08
+actual VR headset product. So in this
+6:10
+case, it's this headset here. So we'll
+6:12
+add that as a reference.
+6:18
+And this is what that concept now looks
+6:20
+like in a website. So as you scroll down
+6:22
+the page, you can see it expanding just
+6:24
+like that. And then there we have like a
+6:25
+feature sort of box that pops up and
+6:27
+then our footer. Now, in this example,
+6:29
+the exact internals of the VR headset
+6:31
+might not be the most accurate, but you
+6:33
+definitely could dial in your prompt and
+6:35
+your references to get it accurate. Now,
+6:37
+for the final concept. Now, this one had
+6:38
+more precise camera movements, and it
+6:40
+turned out really good. Simple solid
+6:42
+shapes, camera blocking only. I need a
+6:44
+single samurai character that's face on
+6:46
+with the camera center frame. Camera
+6:48
+rotates around our character over 3
+6:50
+seconds. Character pulls sword out.
+6:52
+Camera pans around after another 3
+6:54
+seconds as it zooms out to reveal the
+6:56
+whole character in the frame. Now with a
+6:58
+sword out, the camera then pans to the
+7:00
+left so that our character is now on the
+7:01
+right. And then after 3 seconds, it
+7:03
+whips. So the character is now on the
+7:05
+left for 3 seconds. And this is what it
+7:07
+gave us. So there is our samurai. Uh
+7:10
+there's the sword, which is super cool.
+7:12
+It zooms out like this to reveal the
+7:14
+whole character. Then it's on the right,
+7:16
+and then it switches over to the left.
+7:18
+Now, this is what we want because when
+7:20
+this goes onto the website, we're going
+7:22
+to have like features going down one
+7:23
+side and then features going down the
+7:25
+other. And we want to have this as like
+7:27
+one continuous video that just kind of
+7:29
+fills the frame. So same again, we'll
+7:30
+give Claude that video from Blender. And
+7:32
+then we'll also give it the reference
+7:34
+image of our character here. And then
+7:36
+it's analyzed it and given us a prompt
+7:38
+here. But then I realized I think it
+7:40
+would be better if the camera actually
+7:41
+rotated fully around the character and
+7:44
+it reworked it to this prompt here. So
+7:45
+let's copy this. We'll paste this into
+7:47
+Higsfield and then we'll make sure to
+7:49
+add our character as a reference. We'll
+7:51
+go 12 seconds with this 16x9 1080p. And
+7:54
+then we'll generate this. And this here
+7:56
+is what it generated us, which is super
+7:58
+cool. Sword comes out, pans around our
+8:01
+character, and the character [music] is
+8:03
+now over on the right. And then it
+8:05
+switches over to the left. And I'll show
+8:07
+you guys what this looks like in the
+8:09
+final website. 3 2 1. This is the
+8:12
+website here. It loads into our hero.
+8:14
+Real nice. We got these animations. And
+8:16
+then as we scroll down the page, takes
+8:18
+her sword out. our hero items disappear.
+8:21
+Then she floats over there to the right.
+8:23
+And then we have like a feature box on
+8:25
+the left. And then we have a feature box
+8:26
+on the right. And then it expands up
+8:29
+from that to reveal another full screen
+8:32
+video like that till we scroll to get
+8:34
+down the page where we have like FAQs
+8:35
+and a footer. Usually to generate video
+8:38
+with specific camera movements and very
+8:40
+certain compositions that work within a
+8:42
+website, it involves a lot of guess
+8:43
+work, a lot of reprompting. But
+8:45
+honestly, using this Blender workflow,
+8:46
+it's a lot of fun and it immediately
+8:48
+helps you visualize it and get to a
+8:50
+better starting point. Now, if you're
+8:51
+interested in these AI workflows and how
+8:53
+to build and design websites like these,
+8:55
+you can check out my online course where
+8:57
+I cover the full start to finish
+8:58
+workflow of building websites like this
+9:00
+for clients using these AI workflows.
+9:03
+And if you guys want to check out this
+9:04
+Blender with Higfield workflow, then
+9:06
+check out the link in the description.
+9:08
+And thanks again for Hazfield for
+9:10
+sponsoring this video. If you guys like
+9:11
+this video, please consider hitting the
+9:13
+like button and subscribing if you want
+9:14
+to see more stuff like this. And I'll
+9:16
+catch you guys soon with another video.
